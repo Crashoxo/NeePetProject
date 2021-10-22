@@ -1,0 +1,20 @@
+:root {
+    --border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
+    --border-radius-hover: 4% 95% 6% 95%/95% 4% 92% 5%;
+}
+
+.this .image {
+    width: 100%;
+    animation: aboutImage 4s linear infinite;
+}
+
+@keyframes aboutImage {
+    0%, 100% {
+        transform: scale(.9);
+        border-radius: var(--border-radius-hover);
+    }
+    50% {
+        transform: scale(.8);
+        border-radius: var(--border-radius);
+    }
+}
