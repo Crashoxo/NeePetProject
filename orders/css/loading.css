@@ -1,0 +1,99 @@
+
+.LoadingPage {
+    width: 50%;
+    position: absolute;
+    top: calc(50vh - 25%);
+    left: calc(50vw - 25%);
+}
+
+.Gif, .loadingimg {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Gif {
+    margin-bottom: 15px;
+}
+
+.loadingimg img {
+    opacity: 0;
+    animation: LoadingAnimate 3s linear infinite;
+    animation-delay: calc(0.5s * var(--i));
+}
+
+.Img2 {
+    position: relative;
+    left: -1.5vw;
+}
+
+.RuningLine span {
+    position: absolute;
+    height: 2px;
+    width: 20vh;
+    background: #000;
+}
+
+.RuningLine span:nth-child(1) {
+    top: 20%;
+    animation: RuningLine 0.9s linear infinite;
+    animation-delay: -5s;
+}
+
+.RuningLine span:nth-child(2) {
+    top: 40%;
+    animation: RuningLine 2s linear infinite;
+    animation-delay: -1s;
+}
+
+.RuningLine span:nth-child(3) {
+    top: 70%;
+    animation: RuningLine 1.2s linear infinite;
+}
+
+@media screen and (min-width :1000px) {
+    .Gif img {
+        width: 30%;
+    }
+    .loadingimg img {
+        width: 8%;
+    }
+    .Img2 {
+        top: -4vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Gif img {
+        width: 60%;
+    }
+    .loadingimg img {
+        width: 12%;
+    }
+    .Img2 {
+        top: -2vh;
+    }
+}
+
+@keyframes LoadingAnimate {
+    0% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes RuningLine {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+        width: 0;
+    }
+}

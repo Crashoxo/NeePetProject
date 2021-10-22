@@ -1,0 +1,660 @@
+/* * {
+    margin: 0;
+    padding: 0
+} */
+
+.qiandao-left li {
+    list-style: none
+}
+
+body {
+    background-color: #004A4B;
+}
+
+
+/* 以上可合并 */
+
+.htmleaf-container {
+    padding-top: 160px;
+    /* font-family: 'Noto Sans TC', sans-serif; */
+}
+
+.htmleaf-container .clear {
+    clear: both
+}
+
+.htmleaf-container .clear:after {
+    clear: both;
+    display: table;
+    content: ''
+}
+
+.qiandao-sprits {
+    background-image: url(../images/qiandao_sprits.gif);
+    background-repeat: no-repeat
+}
+
+.qiandao-tran {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+}
+
+.qiandao-radius {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px
+}
+
+
+/* 牌子 */
+
+.brand {
+    margin: 20px auto;
+    width: 1035px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand div {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    background-image: url(../images/狗牌1.png);
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #004B4A;
+    font-weight: 800;
+}
+
+.brand div:hover {
+    color: brown;
+}
+
+
+/* .qiandap-box {
+    margin: 0px auto;
+    width: 70pc;
+    width: 80%;
+} */
+
+
+/* 背景 */
+
+.qiandao-con {
+    margin: 0 auto;
+    width: 1035px;
+    height: 1400px;
+    background-repeat: no-repeat;
+    background-image: url(../images/測試.gif)
+}
+
+
+/* 日曆 */
+
+.qiandao-left {
+    /* float: left; */
+    /* padding: 20px 42px 0 39px; */
+    width: 603px;
+    margin: 0 auto;
+    padding-top: 145px;
+}
+
+
+/* 內文 簽到鍵 */
+
+.qiandao-right {
+    /* float: right; */
+    /* padding: 0 20px; */
+    margin: 0 auto;
+    width: 290px;
+    padding-top: 125px;
+}
+
+
+/* 每天日期 */
+
+.current-date {
+    /* float: left; */
+    padding-top: 15px;
+    /* padding-left: 55px; */
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* 簽到記錄 */
+
+
+/* .qiandao-history {
+    float: right;
+    width: 92px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #1f1d1c;
+    color: #fff;
+    text-align: center;
+    font-size: 1pc;
+    line-height: 36px;
+    cursor: pointer
+} */
+
+
+/* .qiandao-history:hover {
+    background-color: #156585
+} */
+
+.qiandao-top {
+    padding-top: 70px;
+    height: 13pc
+}
+
+.just-qiandao {
+    margin: 0 auto 20px;
+    width: 212px;
+    height: 67px;
+    cursor: pointer
+}
+
+.just-qiandao.actived,
+.just-qiandao:active {
+    background-position: 0 -68px
+}
+
+.qiandao-notic {
+    color: #b25d06;
+    text-align: center;
+    font-size: 18px
+}
+
+.qiandao-rule-list {
+    margin-bottom: 35px;
+    color: #8d8ebb;
+    font-size: 1pc;
+    line-height: 26px
+}
+
+.qiandao-rule-list h4 {
+    font-weight: bolder;
+    font-size: 1pc
+}
+
+.qiandao-main {
+    overflow: hidden;
+    width: 603px;
+    padding-top: 20px;
+}
+
+.qiandao-list {
+    margin-top: 76px;
+    margin-right: -10px
+}
+
+.qiandao-list li {
+    position: relative;
+    float: left;
+    margin: 0 1px 1px 0;
+    width: 85px;
+    height: 85px;
+    background-image: url(../images/qiandao_day.png);
+    background-position: 0 0
+}
+
+.qiandao-list li.date1 {
+    background-position: -430px 0
+}
+
+.qiandao-list li.date2 {
+    background-position: -516px 0
+}
+
+.qiandao-list li.date3 {
+    background-position: 0 -86px
+}
+
+.qiandao-list li.date4 {
+    background-position: -86px -86px
+}
+
+.qiandao-list li.date5 {
+    background-position: -172px -86px
+}
+
+.qiandao-list li.date6 {
+    background-position: -258px -86px
+}
+
+.qiandao-list li.date7 {
+    background-position: -344px -86px
+}
+
+.qiandao-list li.date8 {
+    background-position: -430px -86px
+}
+
+.qiandao-list li.date9 {
+    background-position: -516px -86px
+}
+
+.qiandao-list li.date10 {
+    background-position: 0 -172px
+}
+
+.qiandao-list li.date11 {
+    background-position: -86px -172px
+}
+
+.qiandao-list li.date12 {
+    background-position: -172px -172px
+}
+
+.qiandao-list li.date13 {
+    background-position: -258px -172px
+}
+
+.qiandao-list li.date14 {
+    background-position: -344px -172px
+}
+
+.qiandao-list li.date15 {
+    background-position: -430px -172px
+}
+
+.qiandao-list li.date16 {
+    background-position: -516px -172px
+}
+
+.qiandao-list li.date17 {
+    background-position: 0 -258px
+}
+
+.qiandao-list li.date18 {
+    background-position: -86px -258px
+}
+
+.qiandao-list li.date19 {
+    background-position: -172px -258px
+}
+
+.qiandao-list li.date20 {
+    background-position: -258px -258px
+}
+
+.qiandao-list li.date21 {
+    background-position: -344px -258px
+}
+
+.qiandao-list li.date22 {
+    background-position: -430px -258px
+}
+
+.qiandao-list li.date23 {
+    background-position: -516px -258px
+}
+
+.qiandao-list li.date24 {
+    background-position: 0 -344px
+}
+
+.qiandao-list li.date25 {
+    background-position: -86px -344px
+}
+
+.qiandao-list li.date26 {
+    background-position: -172px -344px
+}
+
+.qiandao-list li.date27 {
+    background-position: -258px -344px
+}
+
+.qiandao-list li.date28 {
+    background-position: -344px -344px
+}
+
+.qiandao-list li.date29 {
+    background-position: -430px -344px
+}
+
+.qiandao-list li.date30 {
+    background-position: -516px -344px
+}
+
+.qiandao-list li.date31 {
+    background-position: 0 -430px
+}
+
+.qiandao-list li .qiandao-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+    width: 85px;
+    height: 85px;
+    background: url(../images/qiandao_icon.png) no-repeat center center
+}
+
+.qiandao-list li.qiandao .qiandao-icon {
+    display: block
+}
+
+.qiandao-layer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 888;
+    display: none;
+    width: 100%
+}
+
+.qiandao-layer-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .55;
+    filter: alpha(opacity=55)
+}
+
+.qiandao-layer-con {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 999;
+    padding-top: 30px;
+    border: 3px #f7b044 solid;
+    border-radius: 5px;
+    background-color: #eaf2dd;
+}
+
+
+/* .qiandao-history-layer .qiandao-layer-con { */
+
+.qiandao-history-layer p {
+    text-align: center;
+    color: #004B4A;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.qiandao-layer-con {
+    margin: -257px 0 0 -293px;
+    width: 586px;
+    height: 484px
+}
+
+.close-qiandao-layer1 {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    width: 1pc;
+    height: 1pc;
+    background-position: -228px -51px
+}
+
+.qiandao-history-inf {
+    margin-top: 25px;
+    color: #666;
+    text-align: center;
+    font-size: 14px
+}
+
+.qiandao-history-inf li {
+    float: left;
+    width: 25%
+}
+
+.qiandao-history-inf li h4 {
+    color: #33b23f;
+    font-size: 40px;
+    line-height: 50px
+}
+
+.qiandao-history-table {
+    overflow: hidden;
+    margin: 20px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0
+}
+
+.qiandao-history-table table {
+    width: 100%;
+    color: #666;
+    text-align: center;
+    font-size: 1pc;
+    border-spacing: 0
+}
+
+.qiandao-history-table table th {
+    width: 33.3%;
+    background-color: #fafafa;
+    text-align: center;
+    line-height: 40px
+}
+
+.qiandao-history-table td {
+    width: 33.3%;
+    border-bottom: 1px #e5e5e5 dashed;
+    line-height: 34px;
+    padding-top: 5px;
+}
+
+.qiandao-active .qiandao-layer-con {
+    margin: -232px 0 0 -211px;
+    width: 422px;
+    height: 434px
+}
+
+.qiandao-history-table td .qh_btn1 {
+    background-color: brown;
+    color: #fff;
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.qiandao-history-table td .qh_btn2 {
+    background-color: #004b4a;
+    color: #fff;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.yiqiandao {
+    margin: 36px 0 0 0px;
+    color: #666;
+    font-size: 14px;
+    line-height: 38px
+}
+
+.yiqiandao .yiqiandao-icon {
+    /* float: left; */
+    margin: 0 auto;
+    width: 200px;
+    height: 38px;
+    background-position: -217px 0
+}
+
+.qiandao-jiangli {
+    position: relative;
+    margin: 45px auto;
+    width: 335px;
+    height: 170px;
+    background-position: 0 -146px
+}
+
+.qiandao-jiangli span {
+    position: absolute;
+    top: 58px;
+    left: 50px;
+    display: block;
+    width: 178px;
+    height: 106px;
+    color: #0a0a0a;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 106px
+}
+
+.qiandao-jiangli span em {
+    padding-left: 5px;
+    font-style: normal;
+    font-size: 1pc
+}
+
+.qiandao-share {
+    display: block;
+    margin: 60px auto 0;
+    width: 318px;
+    height: 3pc;
+    border-radius: 5px;
+    background-color: #004a4b;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 3pc
+}
+
+.qiandao-share:hover {
+    background-color: #3e9d46
+}
+
+
+/* 玩法說明區塊 */
+
+.HowToPlay {
+    margin: 5px 10px;
+    height: 100%;
+}
+
+.HowToPlay>p {
+    text-align: center;
+    color: #004B4A;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.HowToPlay>div {
+    height: 80%;
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.HowToPlay h1,
+.HowToPlay h2 {
+    color: red;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.HowToPlay span,
+.HowToPlay div div p {
+    margin-left: 10px;
+    line-height: 70px;
+}
+
+.HowToPlay div div {
+    margin: 10px 0;
+    height: 70px;
+    color: brown;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.HowToPlay div img {
+    margin-top: 10px;
+}
+
+.HowToPlay .qiandao-sprits {
+    width: 212px;
+    height: 67px;
+}
+
+.HowToPlay .step2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .HowToPlay .step3 {
+    align-self: center;
+    margin-right: 100px;
+} */
+
+
+/* 獎品區塊 */
+
+.MyPrize p:first-child {
+    color: #004b4a;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.MyPrize p:not(:first-child) {
+    color: brown;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80%;
+    margin: 10px auto;
+}
+
+
+/* 兌換說明區塊 */
+
+.MyExchange {
+    font-size: 18px;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.MyExchange p:first-child {
+    color: #004b4a;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.MyExchange p:not(:first-child) {
+    color: #f00;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.MyExchange div {
+    margin-top: 10px;
+    color: brown;
+}
+
+.MyExchange div span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.MyExchange ul {
+    color: #F00;
+    margin-top: 10px;
+}
