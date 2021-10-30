@@ -1,0 +1,26 @@
+mysql://bfa69862a40c61:5bec0e39@us-cdbr-east-04.cleardb.com/heroku_c8b7ac2233a2b6e?reconnect=true
+
+
+HOST    :       us-cdbr-east-04.cleardb.com
+Username:	bfa69862a40c61
+Password:	5bec0e39
+DbName  :       heroku_c8b7ac2233a2b6e
+ 
+
+
+<?php
+	//資料庫主機設定
+	$db_host = "localhost";
+	$db_username = "root";
+	$db_password = "root";
+	$db_name = "teamproject";
+	//連線資料庫
+	$db_link = @new mysqli($db_host, $db_username, $db_password, $db_name,3306);
+	//錯誤處理
+	if ($db_link->connect_error != "") {
+		echo "資料庫連結失敗！";
+	}else{
+		//設定字元集與編碼
+		$db_link->query("SET NAMES 'utf8'");
+	}
+?>
