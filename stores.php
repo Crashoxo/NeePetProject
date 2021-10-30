@@ -28,13 +28,14 @@
         .header-nav {
             position: relative;
         }
+
         /* 頁籤 */
-        
+
         .Bookmark {
             width: 80%;
             margin: 20px auto;
         }
-        
+
         .Bookmark a:not(:last-child),
         .Bookmark span {
             font-size: 16px;
@@ -42,15 +43,16 @@
             text-decoration: none;
             margin: 5px;
         }
-        
+
         .Bookmark a:last-child {
             font-size: 16px;
             color: rgb(155, 155, 155);
             text-decoration: none;
             margin: 5px;
         }
+
         /* 內容 */
-        
+
         .Stores {
             width: 80%;
             margin: 10px auto;
@@ -64,7 +66,7 @@
     <?php include('./header.php'); ?>
 
     <div class="Bookmark">
-        <a href="./homepage.php">寵愛NEE</a>
+        <a href="./index.php">寵愛NEE</a>
         <span>/</span>
         <a href="">服務據點</a>
     </div>
@@ -83,11 +85,11 @@
 
                 <div class="c-featured-store__phone">
                     <span class="mr-3">
-                    TEL: (04)8888-8888
-                </span>
+                        TEL: (04)8888-8888
+                    </span>
                     <span>
-                    FAX: (09)852-9663
-                </span>
+                        FAX: (09)852-9663
+                    </span>
                 </div>
 
                 <div class="c-featured-store__address">

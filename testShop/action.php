@@ -216,7 +216,7 @@ if (isset($_POST['action']) && isset($_POST['action']) == 'order') {
                   </tbody>
                   </table>
                   <br><br><br>
-                  <a class="cart-btn" href="../homepage.php" role="button">回首頁</a>
+                  <a class="cart-btn" href="../index.php" role="button">回首頁</a>
                   <a class="buy-btn" href="../orders/OrderDetail.php" role="button">訂單查詢</a>
                   </div><br>
                   </div>';

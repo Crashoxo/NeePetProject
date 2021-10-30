@@ -249,7 +249,7 @@
     <div class="qa-booking">
         <div class="qa-booking-part">
             <div class="qa-booking-btn active">
-                <a href="./homepage.php" class="current">
+                <a href="./index.php" class="current">
                     <div class="qa-booking-img">
                         <img src="./img/開箱評測圖.jpeg" alt="">
                     </div>

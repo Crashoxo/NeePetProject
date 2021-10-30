@@ -25,7 +25,7 @@ else{
             // echo 'success!';
             $_SESSION['memberID'] = $row_result["memberID"];
             $_SESSION['name'] = $row_result["name"];
-            header("Location: ./homepage.php");
+            header("Location: ./index.php");
         }
         else
             header("Location: ./login.php?error=1");
@@ -35,4 +35,3 @@ else{
 
 // echo $row_result["password"];
 // echo $row_result["email"];
-?>

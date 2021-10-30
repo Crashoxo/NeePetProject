@@ -319,7 +319,7 @@ while ($row = $result->fetch_assoc()) { //fetch_assoc()顯示陣列
                     <img src="./img/吉娃娃1.jpg" style="height: 300px; width: 300px;" alt="">
 
                     <div class="petbook-btn-part">
-                        <a class="petbook-btn-next" href="../homepage.php">回首頁</a>
+                        <a class="petbook-btn-next" href="../index.php">回首頁</a>
                     </div>
                 </div>
                 <div class="col-lg-6 px-4 pb-4" id="Booking">

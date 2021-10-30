@@ -28,13 +28,14 @@
         .header-nav {
             position: relative;
         }
+
         /* 頁籤 */
-        
+
         .Bookmark {
             width: 80%;
             margin: 20px auto;
         }
-        
+
         .Bookmark a:not(:last-child),
         .Bookmark span {
             font-size: 16px;
@@ -42,15 +43,16 @@
             text-decoration: none;
             margin: 5px;
         }
-        
+
         .Bookmark a:last-child {
             font-size: 16px;
             color: rgb(155, 155, 155);
             text-decoration: none;
             margin: 5px;
         }
+
         /* 內容 */
-        
+
         .AboutUs {
             width: 80%;
             height: 80vh;
@@ -64,11 +66,11 @@
 
 <body>
     <?php include('./header.php') ?>
-    
-    
+
+
 
     <div class="Bookmark">
-        <a href="./homepage.php">寵愛NEE</a>
+        <a href="./index.php">寵愛NEE</a>
         <span>/</span>
         <a href="about.php">關於我們</a>
     </div>
@@ -81,7 +83,7 @@
     </section>
 
 
-    
+
     <?php require('./footer.php'); ?>
     <script src="./js/js.js"></script>
     <script src="./js/shop.js"></script>
