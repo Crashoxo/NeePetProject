@@ -85,7 +85,7 @@ $memberID = $_SESSION['memberID']
 
     <main class="container l-product-page Product_Block">
         <div class="Bookmark">
-            <a href="./homepage.html">寵愛NEE</a>
+            <a href="../index.php">寵愛NEE</a>
             <span>/</span>
             <a href="./mall.php">購物商城</a>
             <!-- <span>/</span>
