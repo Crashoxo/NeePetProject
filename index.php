@@ -178,7 +178,7 @@
 
             <?php
             require_once("connMysql.php");
-            $query_RecProduct = "SELECT * FROM products WHERE offlinedate >NOW() AND productstock > 0 ORDER BY productsID LIMIT 9 ";
+            $query_RecProduct = "SELECT * FROM products WHERE offlinedate >NOW() AND productstock > 0 ORDER BY productsID LIMIT 12 ";
             $result = $db_link->query($query_RecProduct);
 
             while ($row_RecProduct = $result->fetch_assoc()) {
