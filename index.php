@@ -26,7 +26,7 @@
     <!-- ======================== title icon setting =============================  -->
     <link rel="icon" href="./img/logo2.jpg">
 
-    <title>寵愛NEE</title>
+    <title>寵愛NEEEEEEEEEEEEEE</title>
 
 
 </head>
