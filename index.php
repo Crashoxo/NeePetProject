@@ -26,7 +26,7 @@
     <!-- ======================== title icon setting =============================  -->
     <link rel="icon" href="./img/logo2.jpg">
 
-    <title>寵愛NEEEEEEEEEEEEEE</title>
+    <title>寵愛NEE 後端購物車設計</title>
 
 
 </head>
